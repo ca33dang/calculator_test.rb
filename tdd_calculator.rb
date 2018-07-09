@@ -1,5 +1,13 @@
-def addition (first_number, second_number)
-	first_number + second_number
+def addition (first, second)
+	first + second
+	if (first == "") || (second == "")
+		nil
+	elsif (first == []) || (second == [])
+	nil
+else
+	answer = first + second
+end
+	answer
 end
 def subtract(first, second)
 	first - second
