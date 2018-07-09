@@ -1,5 +1,4 @@
 def addition (first, second)
-	first + second
 	if (first == "") || (second == "")
 		nil
 	elsif (first == []) || (second == [])
@@ -7,13 +6,27 @@ def addition (first, second)
 else
 	answer = first + second
 end
-	answer
+    answer
 end
 def subtract(first, second)
-	first - second
+	if (first == "") || (second == "")
+		nil
+	elsif (first == []) || (second == [])
+		nil
+	else
+		answer = first - second
+	end
+	answer
 end
 def multiply(first, second)
-	anwer = first * second
+    if (first == "") || (second == "")
+    	nil
+    elsif (first == []) || (second == [])
+		nil
+	else
+		answer = first * second
+	end
+	answer
 end
 def divide(first, second)
 	if second == 0 
