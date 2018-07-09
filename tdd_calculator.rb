@@ -23,3 +23,8 @@ def divide(first, second)
 	end
 	answer
 end
+def stringer(stuff)
+	if stuff.include?("abc")
+	true
+    end
+end

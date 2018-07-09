@@ -21,4 +21,7 @@ class CalculatorTest < Minitest::Test
    	def test_if_division_by_zero_gets_nil
    		assert_equal(nil, divide(8, 0))
    	end
+   	def test_if_stringer_includes_abc
+   		assert_equal(true, stringer("abc"))
+   	end
 end
